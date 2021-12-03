@@ -1,0 +1,29 @@
+10-25 11:45:20.540   508   559 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.android.todolist changed
+10-25 11:45:21.060   508   508 V StorageManagerService: Package com.android.todolist does not have legacy storage
+10-25 11:45:42.066   508  1428 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[439,1176][640,1480]} from uid 10139
+10-25 11:45:42.139   508   537 I ActivityManager: Start proc 3418:com.android.todolist/u0a157 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity}
+10-25 11:45:45.258   508   696 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:45:47.270   508   692 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@fde63cd
+10-25 11:46:34.791   508  3771 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:47:56.857   508  1426 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:47:58.861   508  3799 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@9adbc28
+10-25 11:48:08.525   508  2738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:48:11.783   508  5085 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:48:13.789   508  5085 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@22b1866
+10-25 11:50:20.590   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:50:21.680   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:50:23.683   508   521 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@c31cd7a
+10-25 11:50:27.892   508   521 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:51:21.177   508  2738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:51:23.181   508   860 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@474bb5d
+10-25 11:51:25.807   508   860 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:51:26.960   508  4877 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:51:28.965   508  4877 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@19b406d
+10-25 11:51:31.626   508  2738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:51:35.135   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:51:37.141   508  3239 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@23b3858
+10-25 11:51:39.941   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:53:07.944   508   521 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:53:09.947   508  3239 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@9b79597
+10-25 11:53:14.959   508  2682 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+12-03 16:38:04.342   508   535 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist

@@ -1,0 +1,46 @@
+1. Отобразить подключённый девайс в консоли.
+adb devices
+List of devices attached
+emulator-5554   device
+
+2. Вывести адрес приложения todolist в системе Android
+
+$ adb shell pm list packages | grep todolist
+package:com.android.todolist
+
+3. Установить .apk файл приложениия todolist на телефон с компьютера через  ADB
+
+adb install -t /c/QA/todolist/app_debug.apk
+Performing Streamed Install
+Success
+
+4. Сделать скриншот запущенного приложения todolist и сразу скопировать на компьютер в одной команде.
+
+adb shell screencap storage/emulated/0/dcim/screen.png
+
+adb pull storage/emulated/0/dcim/screen.png /c/QA/todolist/screen/screen.png
+storage/emulated/0/dcim/screen.png: 1 file pulled, 0 skipped. 0.6 MB/s (53978 bytes in 0.086s)
+
+
+5. Вывести в консоль логи приложения todolist
+adb logcat - выводит все логи мобильного устройства
+
+Вывести логи кокретного приложения
+adb logcat | grep "todolist"
+10-25 08:35:38.260   504   526 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.android.todolist changed
+10-25 08:35:38.789   504   504 V StorageManagerService: Package com.android.todolist does not have legacy storage
+10-25 08:36:04.406   504  1918 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[439,1176][640,1480]} from uid 10139
+10-25 08:36:04.506   504   529 I ActivityManager: Start proc 3461:com.android.todolist/u0a157 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity}
+
+Для Android 6:
+adb logcat | grep `adb shell ps | grep todolist | cut -c10-15` # старый телефон на android 6
+
+6. Скопировать логи приложения todolist на компьютер.
+
+adb logcat | findstr "todolist" > /c/QA/todolist/log2.txt - по заданному пути будет создан файл и будут писаться логи приложения
+
+7. Удалить приложение todolist с телефона через ADB
+
+ adb uninstall com.android.todolist
+Success
+
