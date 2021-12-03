@@ -2,28 +2,163 @@
 10-25 11:45:21.060   508   508 V StorageManagerService: Package com.android.todolist does not have legacy storage
 10-25 11:45:42.066   508  1428 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[439,1176][640,1480]} from uid 10139
 10-25 11:45:42.139   508   537 I ActivityManager: Start proc 3418:com.android.todolist/u0a157 for pre-top-activity {com.android.todolist/com.android.todolist.MainActivity}
+10-25 11:45:42.913   508   535 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-25 11:45:42.914   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +840ms
 10-25 11:45:45.258   508   696 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:45:45.478   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +219ms
 10-25 11:45:47.270   508   692 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@fde63cd
+10-25 11:45:47.669  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:45:48.988  1110  1956 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:45:49.038  1110  4061 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:45:49.382   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:49.417   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:49.418   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:49.566   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:49.606   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:49.627   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:49.646   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:49.755   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:45:51.045  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:45:51.049  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:45:52.377  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:45:52.382  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:46:04.483  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:46:04.524  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:46:05.294   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:46:05.438   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:46:05.605   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:46:07.096  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:46:07.114  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:46:08.211  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:46:08.217  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:46:29.635  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:46:29.669  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:46:31.055   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:46:31.487   508   583 D InputDispatcher: Waiting to send key to Window{fd07543 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:46:32.645  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:46:32.663  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:46:33.575  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:46:33.581  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
 10-25 11:46:34.791   508  3771 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:46:34.964   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +172ms
+10-25 11:47:12.839   508   583 D InputDispatcher: Waiting to send key to Window{3187604 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:12.914  1110  2090 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:47:12.922  1110  4074 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:47:13.144  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:47:13.193  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:47:13.318   508   583 D InputDispatcher: Waiting to send key to Window{3187604 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:13.422   508   583 D InputDispatcher: Waiting to send key to Window{3187604 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:13.697   508   583 D InputDispatcher: Waiting to send key to Window{3187604 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:13.768   508   583 D InputDispatcher: Waiting to send key to Window{3187604 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:19.174   508   583 D InputDispatcher: Waiting to send key to Window{283f724 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:19.210  1110  4074 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:47:19.212  1110  5062 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:47:19.213  1110  2090 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:47:19.214  1110  2090 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:47:19.287   508   583 D InputDispatcher: Waiting to send key to Window{283f724 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:19.294  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:47:19.310   508   583 D InputDispatcher: Waiting to send key to Window{283f724 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:19.317  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:47:19.327   508   583 D InputDispatcher: Waiting to send key to Window{283f724 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:19.406   508   583 D InputDispatcher: Waiting to send key to Window{283f724 u0 com.android.todolist/com.android.todolist.MainActivity} because there are unprocessed events that may cause focus to change
 10-25 11:47:56.857   508  1426 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:47:56.979   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +121ms
+10-25 11:47:58.318  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:47:58.348  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:47:58.478  1110  5062 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:47:58.481  1110  5065 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
 10-25 11:47:58.861   508  3799 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@9adbc28
+10-25 11:47:59.351   508   583 D InputDispatcher: Waiting to send key to Window{413e781 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:47:59.711   508   583 D InputDispatcher: Waiting to send key to Window{413e781 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:48:01.095  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:48:01.111  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:48:04.347  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:48:04.378  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:48:05.431   508   583 D InputDispatcher: Waiting to send key to Window{413e781 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:48:05.670   508   583 D InputDispatcher: Waiting to send key to Window{413e781 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:48:06.976  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:48:06.988  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:48:08.426  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:48:08.431  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
 10-25 11:48:08.525   508  2738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:48:08.638   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +111ms
 10-25 11:48:11.783   508  5085 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:48:11.902   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +117ms
 10-25 11:48:13.789   508  5085 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@22b1866
 10-25 11:50:20.590   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:50:20.713   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +121ms
 10-25 11:50:21.680   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:50:21.800   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +119ms
+10-25 11:50:23.297  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:50:23.329  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:50:23.401  1110  5102 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:50:23.433  1110  5062 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
 10-25 11:50:23.683   508   521 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@c31cd7a
+10-25 11:50:24.445   508   583 D InputDispatcher: Waiting to send key to Window{de9d6ba u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:50:24.673   508   583 D InputDispatcher: Waiting to send key to Window{de9d6ba u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:50:26.176  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:50:26.188  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:50:27.791  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:50:27.795  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
 10-25 11:50:27.892   508   521 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:50:28.011   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +116ms
 10-25 11:51:21.177   508  2738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:51:21.286   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +107ms
+10-25 11:51:22.467  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:51:22.501  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:51:22.619  1110  1161 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:51:22.631  1110  5195 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:51:22.633  1110  5062 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:51:22.644  1110  5062 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
 10-25 11:51:23.181   508   860 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@474bb5d
+10-25 11:51:23.335   508   583 D InputDispatcher: Waiting to send key to Window{f5ac047 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:51:23.704   508   583 D InputDispatcher: Waiting to send key to Window{f5ac047 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:51:24.845  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:51:24.863  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
 10-25 11:51:25.807   508   860 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:51:25.918   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +108ms
 10-25 11:51:26.960   508  4877 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:51:27.082   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +122ms
+10-25 11:51:28.317  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:51:28.344  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:51:28.444  1110  4041 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:51:28.451  1110  5253 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
 10-25 11:51:28.965   508  4877 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@19b406d
+10-25 11:51:29.150   508   583 D InputDispatcher: Waiting to send key to Window{edcf1f4 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:51:29.624   508   583 D InputDispatcher: Waiting to send key to Window{edcf1f4 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:51:30.746  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:51:30.761  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:51:31.557  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:51:31.562  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
 10-25 11:51:31.626   508  2738 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:51:31.745   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +112ms
 10-25 11:51:35.135   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:51:35.251   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +115ms
+10-25 11:51:36.350  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:51:36.380  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:51:36.455  1110  4041 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:51:36.470  1110  5252 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:51:37.062   508   583 D InputDispatcher: Waiting to send key to Window{f2de9e5 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
 10-25 11:51:37.141   508  3239 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@23b3858
+10-25 11:51:37.351   508   583 D InputDispatcher: Waiting to send key to Window{f2de9e5 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:51:38.660  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:51:38.671  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
 10-25 11:51:39.941   508  3239 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
+10-25 11:51:40.046   508   535 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +103ms
 10-25 11:53:07.944   508   521 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10157
+10-25 11:53:08.051   508   535 I ActivityTaskManager: Displayed com.android.todolist/.ListActivity: +106ms
+10-25 11:53:09.504  1194  1194 I AndroidIME: AbstractIme.onActivate():84 LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Enable : Suggestion = Show : AutoCorrection = Enable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:53:09.542  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:53:09.645  1110  5252 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:53:09.648  1110  5326 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:53:09.660  1110  5253 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
+10-25 11:53:09.662  1110  5253 W knw     : Infinite Data has no result for 9677661882425161_com.android.todolist [CONTEXT service_id=177 ]
 10-25 11:53:09.947   508  3239 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@9b79597
-10-25 11:53:14.959   508  2682 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10157
-12-03 16:38:04.342   508   535 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.todolist/1/com.android.todolist.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+10-25 11:53:10.606   508   583 D InputDispatcher: Waiting to send key to Window{4205556 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:53:10.862   508   583 D InputDispatcher: Waiting to send key to Window{4205556 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:53:10.934   508   583 D InputDispatcher: Waiting to send key to Window{4205556 u0 com.android.todolist/com.android.todolist.ListActivity} because there are unprocessed events that may cause focus to change
+10-25 11:53:12.245  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:53:12.258  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:53:14.046  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable : AutoStartVoiceInput = Disable, IncognitoMode = false
+10-25 11:53:14.049  1194  1194 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabledForHostApp():252 Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+10-25 11:53:14.861  1194  1194 I AndroidIME: AbstractIme.onActivate():84 PasswordIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearni
